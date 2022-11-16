@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-position: 80%;
+  color: #188a84;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", "Roboto";
+}
+
+header {
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  border-bottom: 2px solid #189baa;
+}
+
+header h1 {
+  font-weight: bolder;
+  margin: 0;
+  font-size: 40px;
+  color: #364647;
+  text-shadow: 0 0 4px;
+}
+
+header a {
+  text-decoration: none;
+  color: #189baa;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul li a {
+  transition: all 0.75s ease;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 2 rem;
+  text-shadow: 0 0 5px;
+}
+
+header nav ul li a:hover {
+  background: #0c6f7a;
+  color: white;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.section-header {
+  font-size: 3.5rem;
+  color: #189baa;
+  border-bottom: 2px solid #189baa;
+  padding-bottom: 15px;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
 }
