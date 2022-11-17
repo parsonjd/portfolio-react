@@ -62,7 +62,6 @@ nav ul li a:hover {
 .section-header {
   font-size: 3.5rem;
   color: #0e5259;
-  border-bottom: 2px solid #189baa;
   padding-bottom: 15px;
   text-align: center;
   margin: 0 auto;
@@ -71,10 +70,18 @@ nav ul li a:hover {
 }
 
 /* About me styles */
+
+.about {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+}
 .about-me {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   float: right;
+  padding: 3rem;
 }
 
 .my-img {
@@ -100,7 +107,6 @@ nav ul li a:hover {
 }
 
 .myPage h2 {
-  font-style: italic;
   font-size: 3rem;
   color: #0e5259;
   text-shadow: 0 0 10px;
@@ -117,4 +123,60 @@ nav ul li a:hover {
   text-align: center;
   margin: 3.5%;
   font-size: 1rem;
+}
+
+/* Contact page styling */
+.contact {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+}
+
+.contact h2 {
+  color: #162425;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 10px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.contact-details p,
+.contact-details address {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.form {
+  width: 40%;
+}
+
+.form button {
+  background: rgb(9, 120, 172);
+  color: white;
+  padding: 15px 0;
+  font-size: 2rem;
+  border-radius: 20px;
+  width: 105%;
+  margin-bottom: 10px;
+}
+
+.form button:hover {
+  color: #050b2c;
+  background: #39a6b2;
+}
+
+.form input,
+.form textarea {
+  border: 1px solid #0d3042;
+  padding: 10px 12px;
+  font-size: 1rem;
+  color: #123344;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: white;
 }
