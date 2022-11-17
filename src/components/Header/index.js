@@ -18,6 +18,16 @@ function Header({ currentPage, handlePageChange }) {
           </div>
         </header>
       </section>
+      <section className="myPage">
+        <div className="myPage-details">
+          <h2>My Portfolio Page</h2>
+          <p>
+            Welcome to my portfolio. You can view the projects that I have built
+            and frameworks utilized. Feel free to reach out. Thanks for
+            visiting!
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

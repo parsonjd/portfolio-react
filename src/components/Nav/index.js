@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 // Destructuring the props
 function Nav({ currentPage, handlePageChange }) {
-  useEffect(() => {
-    document.title = currentPage.name;
-  }, [currentPage]);
-
   return (
     <nav>
       <ul className="nav nav-tabs">

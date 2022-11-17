@@ -10,7 +10,7 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 
 function App() {
-  const [currentPage, handlePageChange] = useState("about");
+  const [currentPage, handlePageChange] = useState("");
 
   //Based on value of current page, this function will render that page.
   const renderPage = () => {
@@ -39,6 +39,7 @@ function App() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       ></Header>
+
       <main>{renderPage()}</main>
       <Footer />
     </>

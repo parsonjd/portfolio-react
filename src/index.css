@@ -6,19 +6,17 @@
 }
 
 body {
-  background-image: url("./assets/images/mountains.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
-  background-position: 80%;
   color: #188a84;
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  min-height: 100vh;
+  min-height: 50vh;
   font-family: "Segoe UI", "Roboto";
 }
 
+/* Header and nav styles */
 header {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
   padding: 25px 40px;
   display: flex;
   justify-content: space-between;
@@ -30,31 +28,31 @@ header {
 header h1 {
   font-weight: bolder;
   margin: 0;
-  font-size: 40px;
-  color: #364647;
+  font-size: 2.5rem;
+  color: #0e5259;
   text-shadow: 0 0 4px;
 }
 
-header a {
+nav a {
   text-decoration: none;
   color: #189baa;
 }
 
-header nav ul {
+nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
 
-header nav ul li a {
+nav ul li a {
   transition: all 0.75s ease;
   padding: 5px 20px;
   font-weight: bold;
-  font-size: 2 rem;
-  text-shadow: 0 0 5px;
+  font-size: 2.5 rem;
+  text-shadow: 0 0 6px;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
   background: #0c6f7a;
   color: white;
   border-radius: 15px;
@@ -63,10 +61,60 @@ header nav ul li a:hover {
 
 .section-header {
   font-size: 3.5rem;
-  color: #189baa;
+  color: #0e5259;
   border-bottom: 2px solid #189baa;
   padding-bottom: 15px;
   text-align: center;
   margin: 0 auto;
   width: 60%;
+  text-shadow: 0 0 10px;
+}
+
+/* About me styles */
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+
+.my-img {
+  flex: 1 15%;
+  margin-right: 25px;
+}
+
+.about p {
+  line-height: 2;
+  color: #0e5259;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+/* My portfolio section styles */
+.myPage {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.myPage h2 {
+  font-style: italic;
+  font-size: 3rem;
+  color: #0e5259;
+  text-shadow: 0 0 10px;
+  text-align: center;
+}
+
+.myPage p {
+  font-size: 25px;
+  color: #328c83;
+}
+
+.myPage-details {
+  width: 45%;
+  text-align: center;
+  margin: 3.5%;
+  font-size: 1rem;
 }

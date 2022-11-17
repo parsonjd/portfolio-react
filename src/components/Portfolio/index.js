@@ -4,9 +4,7 @@ function Portfolio() {
   return (
     <section id="portfolio">
       <div>
-        <h1 id="about" className="section-header">
-          Projects
-        </h1>
+        <h1 className="section-header">Projects</h1>
       </div>
     </section>
   );
