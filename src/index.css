@@ -97,7 +97,7 @@ nav ul li a:hover {
   margin: 0 auto;
 }
 
-/* My portfolio section styles */
+/* My page section styles */
 .myPage {
   background-image: url("./assets/images/mountains.jpg");
   background-size: cover;
@@ -123,6 +123,46 @@ nav ul li a:hover {
   text-align: center;
   margin: 3.5%;
   font-size: 1rem;
+}
+
+/* Projects page styling */
+.projects {
+  background-image: url("./assets/images/nightSky.jpg");
+  background-size: cover;
+}
+
+.project {
+  margin: 30px auto;
+  width: 85%;
+  border-bottom: 1px solid #e7eeec;
+}
+
+.project-stuff {
+  display: flex;
+  align-items: center;
+}
+
+.project-img {
+  flex: 1 15%;
+  margin-right: 150px;
+}
+
+.git-hub {
+  text-align: center;
+}
+
+.project-description {
+  flex: 7;
+}
+
+.project-description h4 {
+  font-size: 2rem;
+  color: #dbf1ee;
+}
+
+.project-description p {
+  color: #d5f2ea;
+  font-size: 1.2rem;
 }
 
 /* Contact page styling */
@@ -155,7 +195,7 @@ nav ul li a:hover {
 }
 
 .form button {
-  background: rgb(9, 120, 172);
+  background: #0d6b97;
   color: white;
   padding: 15px 0;
   font-size: 2rem;
