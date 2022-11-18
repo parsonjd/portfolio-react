@@ -173,6 +173,8 @@ nav ul li a:hover {
   text-align: center;
   font-size: 3rem;
   text-shadow: 0 0 10px;
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
 }
 
 .contact-details {
@@ -194,7 +196,6 @@ nav ul li a:hover {
 .form button {
   background: #0d6b97;
   color: white;
-  /* padding: 15px 0; */
   font-size: 2rem;
   border-radius: 20px;
   width: 60%;
@@ -209,14 +210,68 @@ nav ul li a:hover {
 
 .form input,
 .form textarea {
-  border: 1px solid #0d3042;
+  border: 1px solid #7b98a7;
   padding: 10px 12px;
   font-size: 1rem;
-  color: #123344;
+  color: #061e2b;
   width: 100%;
   margin-bottom: 10px;
   border-radius: 15px;
-  background-color: white;
+  background-color: #a5daf3;
+}
+
+/* Resume styling */
+.resume {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.tech {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tech-table {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #698e97;
+}
+
+.front-end,
+.back-end {
+  width: 30%;
+  text-align: center;
+}
+
+.resume-download {
+  text-align: center;
+  margin: 0 auto 35px auto;
+}
+
+.logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: #0e5259;
+  display: inline-block;
+}
+
+.table-title {
+  color: #20574d;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.table-text {
+  color: #8dbdb4;
+  font-size: 1.2rem;
+}
+
+.table-text ul li {
+  list-style: none;
 }
 
 /* Styles to footer */
