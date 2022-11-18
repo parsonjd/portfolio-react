@@ -28,7 +28,7 @@ function Contact() {
     e.preventDefault();
 
     if (!validateEmail(email) || !fullName) {
-      setErrorMessage("Email or Name is invalid");
+      setErrorMessage("Email/Name is invalid");
       return;
     }
 

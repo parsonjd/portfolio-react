@@ -23,8 +23,8 @@ function Header({ currentPage, handlePageChange }) {
           <h2>My Portfolio Page</h2>
           <p>
             Welcome to my portfolio. You can view the projects that I have built
-            and frameworks utilized. Feel free to reach out. Thanks for
-            visiting!
+            and frameworks utilized. Feel free to reach out. My resume is also
+            available to view or download. Thanks for visiting!
           </p>
         </div>
       </section>

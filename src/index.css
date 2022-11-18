@@ -69,34 +69,6 @@ nav ul li a:hover {
   text-shadow: 0 0 10px;
 }
 
-/* About me styles */
-
-.about {
-  background-image: url("./assets/images/mountains.jpg");
-  background-size: cover;
-}
-.about-me {
-  background-image: url("./assets/images/mountains.jpg");
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
-  padding: 3rem;
-}
-
-.my-img {
-  flex: 1 15%;
-  margin-right: 25px;
-}
-
-.about p {
-  line-height: 2;
-  color: #0e5259;
-  width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
-}
-
 /* My page section styles */
 .myPage {
   background-image: url("./assets/images/mountains.jpg");
@@ -123,6 +95,31 @@ nav ul li a:hover {
   text-align: center;
   margin: 3.5%;
   font-size: 1rem;
+}
+
+/* About me styles */
+.about {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+}
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  padding: 3rem;
+}
+
+.my-img {
+  flex: 1 15%;
+  margin-right: 25px;
+}
+
+.about p {
+  line-height: 2;
+  color: #0e5259;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
 }
 
 /* Projects page styling */
@@ -191,17 +188,18 @@ nav ul li a:hover {
 }
 
 .form {
-  width: 40%;
+  width: 30%;
 }
 
 .form button {
   background: #0d6b97;
   color: white;
-  padding: 15px 0;
+  /* padding: 15px 0; */
   font-size: 2rem;
   border-radius: 20px;
-  width: 105%;
+  width: 60%;
   margin-bottom: 10px;
+  margin-left: 5rem;
 }
 
 .form button:hover {
@@ -219,4 +217,20 @@ nav ul li a:hover {
   margin-bottom: 10px;
   border-radius: 15px;
   background-color: white;
+}
+
+/* Styles to footer */
+footer {
+  background-image: url("./assets/images/mountains.jpg");
+  background-size: cover;
+  height: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer h3 {
+  color: #186e5f;
+  font-size: 1.2rem;
+  margin: 0;
 }
