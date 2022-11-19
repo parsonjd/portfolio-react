@@ -6,20 +6,17 @@ function Footer() {
   return (
     <footer>
       <h3>Made by Jeremy Parson</h3>
-      <p>
-        <div>
-          <a href="https://github.com/parsonjd">
-            <img
-              src={gitHub}
-              style={{ width: "50%" }}
-              alt="github repository"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/jeremyparson/">
-            <img src={linkedIn} style={{ width: "50%" }} alt="linkedIn" />
-          </a>
-        </div>
-      </p>
+
+      <div>
+        <a href="https://github.com/parsonjd">
+          <img src={gitHub} alt="github repository" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/jeremyparson/">
+          <img src={linkedIn} alt="linkedIn" />
+        </a>
+      </div>
     </footer>
   );
 }

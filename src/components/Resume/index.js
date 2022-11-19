@@ -21,7 +21,7 @@ function Resume() {
       </section>
       <section className="tech">
         <div className="tech-table front-end">
-          <p className="table-title">Font-End Technologies</p>
+          <p className="table-title">Front-End</p>
           <p className="table-text">
             <ul>
               <li>HTML5</li>
@@ -36,15 +36,15 @@ function Resume() {
         </div>
 
         <div className="tech-table back-end">
-          <p className="table-title">Back-End Technologies</p>
+          <p className="table-title">Back-End </p>
           <p className="table-text">
             <ul>
               <li>Node.Js</li>
               <li>Express.js</li>
               <li>MySQL</li>
               <li>Sequelize</li>
-              <li>Object Relational Mapping(ORM)</li>
-              <li>Model View Controller (MVC)</li>
+              <li>ORM</li>
+              <li>MVC</li>
               <li>MongoDB</li>
               <li>GraphQL</li>
               <li>State</li>

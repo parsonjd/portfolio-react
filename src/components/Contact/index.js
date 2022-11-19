@@ -50,7 +50,7 @@ function Contact() {
       </div>
 
       <div className="contact-details">
-        <div>
+        <div className="column1">
           <p>My contact info!</p>
           <p>
             Phone: <a href="tel:757.641.3628">757.641.3628</a>
@@ -60,7 +60,7 @@ function Contact() {
           </p>
         </div>
 
-        <div className="form">
+        <div className="form column2">
           <form>
             <label for="fullName">Your Name</label>
             <input

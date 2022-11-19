@@ -173,8 +173,6 @@ nav ul li a:hover {
   text-align: center;
   font-size: 3rem;
   text-shadow: 0 0 10px;
-  /* margin-top: 2rem;
-  margin-bottom: 2rem; */
 }
 
 .contact-details {
@@ -288,4 +286,108 @@ footer h3 {
   color: #186e5f;
   font-size: 1.2rem;
   margin: 0;
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h3,
+  footer div,
+  footer p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .myPage-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-header {
+    width: 80%;
+  }
+
+  .contact-details {
+    flex: 1 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-stuff {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .project-img {
+    /* flex: 0 50%; */
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .project-description {
+    flex: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .section-header {
+    width: 95%;
+  }
+
+  .nav,
+  .nav-item {
+    display: block;
+  }
+
+  .about p,
+  .projects p {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .project-stuff {
+    display: block;
+  }
+
+  .column1,
+  .column2 {
+    width: 100%;
+  }
+
+  .contact-details {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .tech {
+    width: 100%;
+  }
+  .tech-table {
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
 }
