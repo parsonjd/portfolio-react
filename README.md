@@ -12,7 +12,7 @@
 ## Installation
   1.Clone the repository.  2.  Run `npm install` to load all the dependencies.  3.  Run `npm start` to connect to the server.
 ## Usage
-  The application is self-explanatory.  There are links on the navigation bar to open up the About, Portfolio, Contact, and Resume page.  There are also links to my prjoects once the portfolio page is open.
+  The application is self-explanatory.  There are links on the navigation bar to open up the About, Portfolio, Contact, and Resume page.  There are also links to my prjoects once the portfolio page is open.  Here is link to the demo: https://parsonjd.github.io/react-portfolio/
   
   [![react.png](https://i.postimg.cc/mrg2wSVr/react.png)](https://postimg.cc/18bQRwkx)
 ## License
