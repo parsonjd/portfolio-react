@@ -1,7 +1,7 @@
 # React_Portfolio
   ![Badge](https://img.shields.io/badge/License-APACHE-blue.svg)
   ## Description
-  Being a web developer means being part of a community. We all need a place to share our projects not only if we're applying for jobs or working as a freelancer but also so that we can share our work with fellow developers and collaborate on future projects.
+  This app highlights my portfolio with contact information and a link to my resume.  The app was built with a React front-end.
 ## Table of Content
 - [Installation](#installation)
 - [Usage](#usage)
