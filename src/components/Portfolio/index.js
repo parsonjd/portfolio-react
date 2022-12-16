@@ -1,4 +1,5 @@
 import React from "react";
+import burgersWings from "../../assets/images/burgers-wings.png";
 import budgetBuddy from "../../assets/images/budgetBuddy.png";
 import wineDine from "../../assets/images/wineDine.png";
 import weather from "../../assets/images/weather.png";
@@ -11,6 +12,40 @@ function Portfolio() {
       <section className="projects">
         <div>
           <h2 className="section-header">Projects</h2>
+        </div>
+
+        <div className="project">
+          <div className="project-stuff">
+            <div className="project-img">
+              <a href="https://pure-cove-08835.herokuapp.com/">
+                <img
+                  src={burgersWings}
+                  style={{ width: "100%" }}
+                  alt="Burgers & Wings"
+                />
+              </a>
+              <div className="git-hub">
+                <a href="https://github.com/parsonjd/burgers-wings">
+                  <img
+                    src={gitHub}
+                    style={{ width: "20%" }}
+                    alt="github repository"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="project-description">
+              <h4>Burgers & Wings</h4>
+              <p>
+                Burgers & Wings is a MERN application for a restaurant focusing
+                on hamburgers, wings and craft beer. A user can signup or login
+                and order from the menu. The app uses stripe to process checkout
+                upon completion of the order. It uses React for the front end,
+                GraphQL with node and express on the backend, and MongoDB with
+                Mongoose ODM for the database.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="project">
