@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.4d1f0e1c.css",
-    "main.js": "/portfolio-react/static/js/main.013c453f.js",
+    "main.js": "/portfolio-react/static/js/main.b12b3d4f.js",
     "static/media/nightSky.jpg": "/portfolio-react/static/media/nightSky.fa7f2907fe871e8e10f5.jpg",
+    "static/media/burgers-wings.png": "/portfolio-react/static/media/burgers-wings.9aa4de06fe0791da7737.png",
     "static/media/wineDine.png": "/portfolio-react/static/media/wineDine.11ff8b9ac075e8b3c75f.png",
     "static/media/linkedIn.png": "/portfolio-react/static/media/linkedIn.b318609c08e186590c3c.png",
     "static/media/mountains.jpg": "/portfolio-react/static/media/mountains.1c0f98ba828553f11626.jpg",
@@ -13,10 +14,10 @@
     "static/media/Jeremy_Parson_Resume.pdf": "/portfolio-react/static/media/Jeremy_Parson_Resume.cb6631a23361eeba7815.pdf",
     "index.html": "/portfolio-react/index.html",
     "main.4d1f0e1c.css.map": "/portfolio-react/static/css/main.4d1f0e1c.css.map",
-    "main.013c453f.js.map": "/portfolio-react/static/js/main.013c453f.js.map"
+    "main.b12b3d4f.js.map": "/portfolio-react/static/js/main.b12b3d4f.js.map"
   },
   "entrypoints": [
     "static/css/main.4d1f0e1c.css",
-    "static/js/main.013c453f.js"
+    "static/js/main.b12b3d4f.js"
   ]
 }
