@@ -1,7 +1,7 @@
 # React_Portfolio
   ![Badge](https://img.shields.io/badge/License-APACHE-blue.svg)
   ## Description
-  Being a web developer means being part of a community. We all need a place to share our projects not only if we're applying for jobs or working as a freelancer but also so that we can share our work with fellow developers and collaborate on future projects.
+  This app highlights my portfolio with contact information and a link to my resume.  The app was built with a React front-end.
 ## Table of Content
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,7 +12,7 @@
 ## Installation
   1.Clone the repository.  2.  Run `npm install` to load all the dependencies.  3.  Run `npm start` to connect to the server.
 ## Usage
-  The application is self-explanatory.  There are links on the navigation bar to open up the About, Portfolio, Contact, and Resume page.  There are also links to my prjoects once the portfolio page is open.  Here is link to the demo: https://parsonjd.github.io/react-portfolio/  (It is not deploying correctly even after working with the instructional staff).  They informed me to go ahead and submit.
+ There are links on the navigation bar to open up the About, Portfolio, Contact, and Resume page.  There are also links to my apps once the portfolio page is open.  Here is link to the demo: https://parsonjd.github.io/portfolio-react
   
   [![react.png](https://i.postimg.cc/mrg2wSVr/react.png)](https://postimg.cc/18bQRwkx)
 ## License
